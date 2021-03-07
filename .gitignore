@@ -28,3 +28,7 @@ htmlcov/
 .envrc
 .direnv
 .history
+
+aws-auth-patch.yml
+aws-auth-patch2.yml
+trust_original.json
