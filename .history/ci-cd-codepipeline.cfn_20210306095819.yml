@@ -40,7 +40,7 @@ Parameters:
 
   GitHubUser:
     Type: String
-    Default: yoichinaka
+    Default: SudKul
     Description: GitHub username or organization
     MinLength: 3
     MaxLength: 100
@@ -309,7 +309,7 @@ Resources:
         Type: CODEPIPELINE
       Source:
         Type: CODEPIPELINE
-      Environment:  
+      Environment:
         ComputeType: BUILD_GENERAL1_SMALL
         Type: LINUX_CONTAINER
         Image: !Ref CodeBuildDockerImage
